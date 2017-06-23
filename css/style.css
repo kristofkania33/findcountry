@@ -1,0 +1,40 @@
+body {
+	padding: 0;
+	margin: 0;
+}
+
+#search {
+	font-size: 25px;
+	color: blue;
+	font-weight: 700;
+	width: 200px;
+	height: 150px;
+	background-color: #fff;
+	border-radius: 5px;
+	margin-top: 30px;
+	margin-left: 30px;
+}
+
+#country-name {
+	height: 30px;
+	width: 250px;
+	margin-left: 15px;
+	color: lightgreen;
+	font-size: 22px;
+	padding: 5px;
+}
+
+#country-name:hover, #search:hover {
+	cursor: pointer;
+	box-shadow: 2px 2px 2px #000;
+}
+
+ul li {
+	font-size: 24px;
+	font-weight: 600;
+	color: darkblue;
+}
+
+h1, h2 {
+	margin-left: 30px;
+}
